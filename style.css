@@ -59,7 +59,7 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
 
 .nav-item-1  {
     list-style: none;
-    padding-top: 3.6em;
+    padding-top: 3.3em;
 }
 
 .nav-link-1 {
@@ -92,7 +92,7 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
 
 .header-content {
     text-align: left;
-    margin: 9em 0 0 11em;
+    margin: 9em 0 0 10em;
 }
 
 header h1 {
@@ -194,6 +194,8 @@ header p {
 
 .work-1 p {
     font-size: 1.2em;
+    margin-top: 1.1em;
+    margin-bottom: 1.1em;
 }
 
 .work-icon {
@@ -201,7 +203,7 @@ header p {
 }
 
 .work-btn {
-    margin: 0.8em 1em 0 0;
+    margin: 1.3em 1em 0 0;
     font-size: 0.9em;
     padding: 1.3em 3em;
 }
@@ -232,7 +234,7 @@ header p {
 }
 
 .contact p {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .contact-btn {
@@ -254,13 +256,6 @@ footer p {
     margin: 0;
 }
 
-
-@media (max-width: 320px) {
-  .about-1 p {
-    font-size: 0.8em;
-    }
-
-}
 
 @media (max-width: 965px) {
 
@@ -434,10 +429,16 @@ footer {
 
 
 @media (max-width: 1200px) and (min-width: 967px) {
-  
+/* nav section */
   .nav-image img {
     width: 100px;
 }
+  
+/* head section */
+  .header-content {
+    margin: 9em 0 0 9em;
+  }
+  
 /* about section */
 .About h2 {
     font-size: 2em;
