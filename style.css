@@ -59,7 +59,7 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
 
 .nav-item-1  {
     list-style: none;
-    padding-top: 4em;
+    padding-top: 3.6em;
 }
 
 .nav-link-1 {
@@ -89,16 +89,18 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
 } 
 
 /* header section */
-header h1 {
-    font-size: 5.4em;
+
+.header-content {
     text-align: left;
     margin: 1.6em 0 0 2em;
 }
 
+header h1 {
+    font-size: 5.4em;
+}
+
 header p {
     font-size: 1.8em;
-    text-align: left;
-    margin: 1.6em 0 0 6em;
 }
 
 .header-image {
@@ -108,9 +110,7 @@ header p {
 .header-btn {
     font-size: 0.8em;
     padding: 1em 5em;
-    position: relative;
-    top: 3.7em;
-    right: 32em;
+    margin-top: 1em;
 }
 
 .var-line {
