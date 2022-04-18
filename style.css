@@ -63,7 +63,8 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
 }
 
 i {
-  padding-right: 0.4em;
+  color: #fff;
+  padding-right: 0.5em;
 }
 
 .nav-link-1 {
