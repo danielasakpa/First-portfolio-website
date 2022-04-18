@@ -92,7 +92,7 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
 
 .header-content {
     text-align: left;
-    margin: 8em 0 0 13em;
+    margin: 9em 0 0 11em;
 }
 
 header h1 {
@@ -255,7 +255,12 @@ footer p {
 }
 
 
+@media (max-width: 320px) {
+  .about-1 p {
+    font-size: 0.8em;
+    }
 
+}
 
 @media (max-width: 965px) {
 
@@ -274,23 +279,20 @@ footer p {
 
 
 /* header section */
-header h1 {
+  .header-content {
+   text-align: center;
+   margin-top: 6em; 
+   margin-left: 1em;
+  }
+
+  header h1 {
     font-size: 2em;
-    text-align: center;
-    margin-top: 1em; 
-    margin-left: 0;
 }
 
-header p {
+
+  header p {
     font-size: 1.2em;
-    text-align: center;
     margin-top: 0.5em;
-    margin-left: 0;
-}
-
-.header-btn {
-    position: initial;
-    margin-top: 0.7em;
 }
 
 .header-image {
@@ -423,7 +425,7 @@ footer {
     }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 576px) {
         /* about section */
         .about-1 img {
             margin-top: 3em;
@@ -431,17 +433,15 @@ footer {
 }
 
 
-@media (min-width: 969px) and (max-width: 1024px) {
-/* header section */
-.header-btn {
-    position: relative;
-    right: 20em;
+@media (max-width: 1200px) and (min-width: 967px) {
+  
+  .nav-image img {
+    width: 100px;
 }
 /* about section */
 .About h2 {
     font-size: 2em;
     margin-bottom:1.5em;
-    margin-right: 18em;
     padding-top: 5em;
 }
 
@@ -453,6 +453,8 @@ footer {
 .about-1 p {
     text-align: left;
 }
+  
+
 
 /* myskills section */
 .myskills h2 {
@@ -483,6 +485,7 @@ footer {
     .work-1 h3 {
         font-size: 1.8em;
         line-height: 2em;
+        margin-top: 1.7em;
     }
     
     .work-1 p {
@@ -496,17 +499,12 @@ footer {
     }
     
     .work-1 img {
-        display: none;
+         display: none;
     }
     
 
 }
 
-@media (min-width: 1440px) {
-    .header-btn {
-        right: 36em;
-    }
-}
 
 @media (min-width: 1200px) {
 /* animation section */
