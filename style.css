@@ -275,6 +275,10 @@ header p {
     padding: 1em 5em;
 }
 
+.contact-btn:hover {
+    color: #fff;
+}
+
 /* footer section */
  footer {
      height: 3em;
