@@ -59,7 +59,7 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
 
 .nav-item-1  {
     list-style: none;
-    padding-top: 3em;
+    padding-top: 4em;
 }
 
 .nav-link-1 {
@@ -109,7 +109,7 @@ header p {
     font-size: 0.8em;
     padding: 1em 5em;
     position: relative;
-    top: 4em;
+    top: 3.7em;
     right: 32em;
 }
 
