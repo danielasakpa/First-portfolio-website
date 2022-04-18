@@ -62,6 +62,10 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
     padding-top: 3.3em;
 }
 
+i {
+  padding-right: 0.4em;
+}
+
 .nav-link-1 {
     font-size: 0,8em;
     text-decoration: none;
