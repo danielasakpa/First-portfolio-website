@@ -77,6 +77,7 @@ header h1, .header-icons, .contact-btn, .header-btn, .About h2, .work-1 h3, .mys
 .nav-image img {
     width: 120px;
     height: 160px;
+    object-fit: cover;
 }
 
 .screen2_menu_btn{
