@@ -79,9 +79,10 @@ i {
     text-decoration: none;
 }
 
-nav label nav-1 li a.active {
-    color: #ffffff;
-}
+.active {
+    color: rgb(40,167,69);
+    font-weight: 600;
+  }
 
 .nav-image img {
     width: 120px;
