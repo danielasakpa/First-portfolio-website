@@ -281,7 +281,7 @@ header p {
 
 /* contact section */
 .contact {
-    margin-bottom: 22em;
+    margin-bottom: 16em;
 }
 
 .contact h1 {
@@ -447,6 +447,11 @@ footer {
     padding-top: 1em;
 }
 
+.center, footer span  {
+    display: flex;
+    justify-content: center;
+}
+
 .footer p {
    font-size: 0.2em;
    margin: 0;
@@ -484,6 +489,14 @@ footer {
         .about-1 img {
             margin-top: 3em;
         }
+}
+
+@media (min-width: 1024px) {
+ .center {
+      padding: 50px 0;
+      display: flex;
+      justify-content: center;
+  }
 }
 
 
