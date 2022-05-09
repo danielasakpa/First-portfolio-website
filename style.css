@@ -144,6 +144,7 @@ header p {
     display: flex;
     flex-direction: row;
     padding-top: 1em;
+    transition: font-size 1s;
 }
 
 .header-icons:hover {
