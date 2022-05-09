@@ -79,7 +79,7 @@ i {
     text-decoration: none;
 }
 
-.nav-link-1:active {
+.nav-link-1 a :active {
     color: rgb(40,167,69);
 }
 
