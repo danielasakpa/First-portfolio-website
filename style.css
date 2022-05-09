@@ -79,8 +79,8 @@ i {
     text-decoration: none;
 }
 
-.nav-link-1 a :active {
-    color: rgb(40,167,69);
+nav nav-1 li.active a {
+    color: #ffffff;
 }
 
 .nav-image img {
@@ -239,6 +239,7 @@ header p {
 
 .button-52 a {
     color: #fff;
+    color: rgb(40,167,69);
 }
 
 .button-52:after {
