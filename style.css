@@ -148,6 +148,8 @@ header p {
 
 .header-icons:hover {
     color: rgb(40,167,69);
+    font-weight: 600;
+    font-size: 30px;
 }
 
 /* about section */
