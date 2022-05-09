@@ -17,7 +17,9 @@
 //   window.addEventListener("scroll", reveal);
 
 const sections = document.querySelectorAll("section");
+
 const navLi = document.querySelectorAll("nav nav-1 li a");
+
 window.onscroll = () => {
   var current = "";
 
@@ -26,6 +28,7 @@ window.onscroll = () => {
     if (pageYOffset >= sectionTop - 60) {
       current = section.getAttribute("id"); }
   });
+
 
   navLi.forEach((a) => {
     a.classList.remove("active");
