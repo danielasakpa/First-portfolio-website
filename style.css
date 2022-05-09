@@ -79,6 +79,10 @@ i {
     text-decoration: none;
 }
 
+.nav-link-1:active {
+    color: rgb(40,167,69);
+}
+
 .nav-image img {
     width: 120px;
     height: 160px;
