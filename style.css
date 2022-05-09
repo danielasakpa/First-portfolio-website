@@ -181,6 +181,10 @@ header p {
 
 /* work section */
 
+.work {
+    margin-bottom: 8em;
+}
+
 .work h2 {
     font-size: 2em;
 }
@@ -277,7 +281,7 @@ header p {
 
 /* contact section */
 .contact {
-    margin-bottom: 20em;
+    margin-bottom: 13em;
 }
 
 .contact h1 {
