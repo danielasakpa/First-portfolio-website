@@ -237,6 +237,10 @@ header p {
   touch-action: manipulation;
 }
 
+.button-52 a {
+    color: #fff;
+}
+
 .button-52:after {
   content: "";
   background-color: rgb(40,167,52);
