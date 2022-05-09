@@ -79,7 +79,7 @@ i {
     text-decoration: none;
 }
 
-nav nav-1 li a.active {
+nav label nav-1 li a.active {
     color: #ffffff;
 }
 

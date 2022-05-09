@@ -17,9 +17,7 @@
 //   window.addEventListener("scroll", reveal);
 
 const sections = document.querySelectorAll("section");
-
-const navLi = document.querySelectorAll("nav nav-1 li a");
-
+const navLi = document.querySelectorAll("nav label nav-1 li a");
 window.onscroll = () => {
   var current = "";
 
@@ -29,9 +27,8 @@ window.onscroll = () => {
       current = section.getAttribute("id"); }
   });
 
-
   navLi.forEach((a) => {
-    a.classList.remove("active");
+    a.classList.remove.remove("active");
     if (a.classList.contains(current)) {
       a.classList.add("active");
     }
