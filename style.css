@@ -68,21 +68,20 @@ i {
 }
 
 .nav-link-1 {
-    font-size: 0,8em;
-    text-decoration: none;
-    padding-top: 2em;
-    font-family: sans-serif;
-}
+   font-size: 0.8em;
+   text-decoration: none;
+   padding-top: 2em;
+   font-family: sans-serif;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+ }
 
-.nav-link-1:hover {
+.nav-link-1:hover, .active {
     color: rgb(40,167,69);
     text-decoration: none;
+    font-size: 1em;
 }
-
-.active {
-    color: rgb(40,167,69);
-    font-weight: 600;
-  }
 
 .nav-image img {
     width: 120px;
