@@ -354,6 +354,10 @@ h2 {
     padding: 1em 5em;
 }
 
+.contact-btn-2 {
+    display: none;
+}
+
 .contact-btn:hover {
     color: #fff;
 }
@@ -497,6 +501,13 @@ footer p {
     }
 
     .contact-btn {
+        display: none;
+    }
+
+    .contact-btn-2 {
+        display: block;
+        background-color:  rgb(40, 167, 69);
+        color: #fff;
         margin: 0;
     }
 
