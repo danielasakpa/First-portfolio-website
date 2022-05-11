@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 
 body {
@@ -15,7 +16,7 @@ section {
 }
 
 /* refactor section */
-.nav-link-1,
+i,
 header p,
 .about-1 p,
 .myskills p,
@@ -109,15 +110,16 @@ footer p,
 }
 
 i {
-    color: #fff;
+    font-size:1.2em;
     padding-right: 0.5em;
 }
 
 .nav-link-1 {
-    font-size: 0.8em;
+    font-size: 1em;
     text-decoration: none;
     padding-top: 2em;
-    font-family: sans-serif;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
     transition: all 0.7s ease;
@@ -127,7 +129,7 @@ i {
 .active {
     color: rgb(40, 167, 69);
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .nav-image img {
