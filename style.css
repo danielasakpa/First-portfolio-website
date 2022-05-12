@@ -65,6 +65,7 @@ header h1,
     font-weight: 400;
 }
 
+.nav-link-1,
 .About h2,
 .myskills h1,
 h2,
@@ -110,12 +111,12 @@ footer p,
 }
 
 i {
-    font-size:1.2em;
+    font-size: 1.2em;
     padding-right: 0.5em;
 }
 
 .nav-link-1 {
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 700;
     text-decoration: none;
     padding-top: 2em;
@@ -130,7 +131,7 @@ i {
 .active {
     color: rgb(40, 167, 69);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .nav-image img {
@@ -170,6 +171,10 @@ header p {
     font-size: 0.8em;
     padding: 1em 5em;
     margin-top: 1em;
+}
+
+.header-btn i {
+    color: #fff;
 }
 
 .var-line {
@@ -273,54 +278,69 @@ h2 {
     font-size: 1.2em;
     flex: 1 1 auto;
     margin-top: 0.6em;
-    margin-bottom: 0.9em;
+    margin-bottom: 2em;
 }
 
 .work-icon {
     font-size: 1.5em;
 }
 
-.work-btn {
-    margin: 1.3em 1em 0 0;
-    font-size: 0.9em;
-    padding: 1.3em 3em;
-}
-
 .button-52 {
+    appearance: button;
+    background-color: rgb(40, 167, 69);
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 5px 5px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
     color: #fff;
-    font-weight: 200;
-    letter-spacing: 1px;
-    padding: 13px 20px 13px;
-    outline: 0;
-    border: 1px solid white;
     cursor: pointer;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 1.1em 5px 10px 0;
+    overflow: visible;
+    padding: 25px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
     user-select: none;
     -webkit-user-select: none;
-    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
 }
 
 .button-52 a {
     color: #fff;
 }
 
-.button-52:after {
-    content: "";
-    background-color: rgb(40, 167, 52);
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 7px;
-    left: 7px;
-    transition: 0.2s;
+
+.button-52:focus {
+    text-decoration: none;
 }
 
-.button-52:hover:after {
-    top: 0px;
-    left: 0px;
+.button-52:hover {
+    text-decoration: none;
 }
+
+.button-52:active {
+    box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button-52:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-52 {
+        padding: 12px 50px;
+    }
+}
+
 
 .work-1 img {
     width: 500px;
@@ -355,10 +375,6 @@ h2 {
     font-size: 0.8em;
     margin: 2em;
     padding: 1em 5em;
-}
-
-.contact-btn-2 {
-    display: none;
 }
 
 .contact-btn:hover {
@@ -501,21 +517,6 @@ footer p {
     /* contact section */
     .contact {
         margin-bottom: 9em;
-    }
-
-    .contact-btn {
-        display: none;
-    }
-
-    .contact-btn-2 {
-        font-size: 0.8em;
-        margin: 2em;
-        text-align: center;
-        padding: 1em 0.6em;
-        border-radius: 5px;
-        display: block;
-        background-color: rgb(40, 167, 69);
-        color: #fff;
     }
 
     /* footer section */
