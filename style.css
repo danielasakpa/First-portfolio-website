@@ -74,6 +74,7 @@ h2,
 }
 
 header h1,
+.nav-link-1,
 .header-icons,
 .contact-btn,
 .header-btn,
@@ -86,12 +87,12 @@ h2,
 .work h2,
 footer p,
 .footer-icons {
-    color: #fff;
+   color: #E8E6E3;
 }
 
 .nav-item-1 hr,
 .var-line {
-    background: #fff;
+    background: #E8E6E3;
 }
 
 /* nav section */
@@ -120,7 +121,6 @@ i {
     font-weight: 700;
     text-decoration: none;
     padding-top: 2em;
-    color: #fff;
     font-family: "Open Sans", sans-serif;
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
@@ -174,7 +174,7 @@ header p {
 }
 
 .header-btn i {
-    color: #fff;
+    color: #E8E6E3;
 }
 
 .var-line {
@@ -293,7 +293,7 @@ h2 {
     border-radius: 4px;
     box-shadow: #fff 5px 5px 0 0, #000 4px 4px 0 1px;
     box-sizing: border-box;
-    color: #fff;
+    color: #E8E6E3;
     cursor: pointer;
     display: inline-block;
     font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
@@ -313,7 +313,7 @@ h2 {
 }
 
 .button-52 a {
-    color: #fff;
+    color: #E8E6E3;
 }
 
 
@@ -378,7 +378,7 @@ h2 {
 }
 
 .contact-btn:hover {
-    color: #fff;
+    color: #E8E6E3;
 }
 
 /* footer section */
