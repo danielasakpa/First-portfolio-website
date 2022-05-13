@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(22,24,25);
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
@@ -23,7 +23,7 @@ header p,
 .contact p,
 .work-1 p,
 .work p {
-    color: rgb(131, 131, 131);
+    color: rgb(154,145,132);
 }
 
 .about-1,
@@ -31,7 +31,7 @@ header p,
 .screen2_menu_items,
 .nav-item-1,
 footer {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(18,20,20);
 }
 
 header h1,
@@ -129,7 +129,7 @@ i {
 
 .nav-link-1:hover,
 .active {
-    color: rgb(40, 167, 69);
+    color: rgb(37,156,64);
     text-decoration: none;
     font-size: 1em;
 }
@@ -202,7 +202,7 @@ header p {
 }
 
 .header-icons:hover {
-    color: rgb(40, 167, 69);
+    color: rgb(37,156,64);
     font-weight: 600;
     font-size: 30px;
 }
@@ -215,7 +215,7 @@ header p {
 
 .about-1 {
     padding: 2em;
-    border: 5px solid rgb(40, 167, 69);
+    border: 5px solid rgb(37,156,64);
     border-radius: 2em;
     width: 60%;
 }
@@ -287,7 +287,7 @@ h2 {
 
 .button-52 {
     appearance: button;
-    background-color: rgb(40, 167, 69);
+    background-color: rgb(37,156,64);
     background-image: none;
     border: 1px solid #000;
     border-radius: 4px;
@@ -400,7 +400,7 @@ footer p {
 
     .header-btn,
     .contact-btn {
-        background-color: rgb(40, 167, 69);
+        background-color: rgb(37,156,64);
     }
 
     section {
@@ -457,7 +457,7 @@ footer p {
 
     .about-1 {
         padding: 1em;
-        border: 2px solid rgb(40, 167, 69);
+        border: 2px solid rgb(37,156,64);
         width: 90%;
     }
 
@@ -544,7 +544,7 @@ footer p {
     }
 
     .footer-icons:hover {
-        color: rgb(40, 167, 69);
+        color: rgb(37,156,64);
     }
 
 }
